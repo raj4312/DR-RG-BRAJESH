@@ -10,7 +10,7 @@ const CONFIG = {
   dataSource: {
     // Primary profile JSON file
     // Change this to load a different faculty profile
-    profilePath: '../data/profile-dr-brajesh.json',
+    profilePath: '/data/profile-dr-brajesh.json',
 
     // Fallback profile (optional) – disabled (no extra request)
     fallbackProfile: null
