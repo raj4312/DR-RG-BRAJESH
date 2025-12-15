@@ -2,7 +2,7 @@
  * Layout Styles
  * 
  * Global layout rules and page structure.
- * Figma Location: Design/Layout Templates
+ * Location: Design/Layout Templates
  */
 
 /* ===== RESET & BASE ===== */
@@ -30,7 +30,7 @@ body {
 }
 
 /* ===== LOADING STATE ===== */
-/* Figma: Component/Loading */
+/* : Component/Loading */
 .loading {
     display: flex;
     flex-direction: column;
@@ -60,7 +60,7 @@ body {
 }
 
 /* ===== ERROR STATE ===== */
-/* Figma: Component/Error */
+/* : Component/Error */
 .error {
     background-color: var(--color-error-bg);
     color: var(--color-error-text);
@@ -71,7 +71,7 @@ body {
 }
 
 /* ===== MAIN CONTAINER ===== */
-/* Figma: Layout/Container */
+/* : Layout/Container */
 .container {
     max-width: var(--container-max-width);
     margin: 0 auto;
@@ -79,7 +79,7 @@ body {
 }
 
 /* ===== SECTIONS ===== */
-/* Figma: Layout/Section */
+/* : Layout/Section */
 .section {
     margin-bottom: var(--section-spacing);
 }
