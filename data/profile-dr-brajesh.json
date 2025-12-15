@@ -6,7 +6,7 @@
   "university": "Chhattisgarh Swami Vivekanand Technical University, Bhilai (C.G.)",
   "location": "Bhilai, Chhattisgarh",
   "tagline": "Specializing in Systems Biology, Evolutionary Biology, Machine Learning in Healthcare, and Machine Learning in Agricultural Science.",
-  "image": "../assets/img/dr-rg-brajesh.jpg",
+  "image": "/assets/img/dr-rg-brajesh.jpg",
   "contact": {
     "email": "brajeshrg@csvtu.ac.in",
     "emailSecondary": "faculty3_bmeb@csvtu.ac.in",
