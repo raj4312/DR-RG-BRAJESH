@@ -6,7 +6,7 @@
  */
 
 /* ===== PROFILE HEADER ===== */
-/* Figma: Component/Profile/Header */
+/* : Component/Profile/Header */
 .profile-header {
     text-align: center;
     padding: var(--space-4xl) 0;
@@ -14,7 +14,7 @@
     margin-bottom: var(--section-spacing);
 }
 
-/* Figma: Component/Profile/Header/Photo */
+/* : Component/Profile/Header/Photo */
 .profile-photo {
     width: var(--profile-photo-size);
     height: var(--profile-photo-size);
@@ -40,7 +40,7 @@
     fill: var(--color-text-muted);
 }
 
-/* Figma: Component/Profile/Header/Name */
+/* : Component/Profile/Header/Name */
 .profile-name {
     font-size: var(--font-size-3xl);
     font-weight: var(--font-weight-bold);
@@ -48,7 +48,7 @@
     margin-bottom: var(--space-md);
 }
 
-/* Figma: Component/Profile/Header/Title */
+/* : Component/Profile/Header/Title */
 .profile-title {
     font-size: var(--font-size-xl);
     font-weight: var(--font-weight-regular);
@@ -56,14 +56,14 @@
     margin-bottom: var(--space-sm);
 }
 
-/* Figma: Component/Profile/Header/Affiliation */
+/* : Component/Profile/Header/Affiliation */
 .profile-affiliation {
     font-size: var(--font-size-md);
     color: var(--color-text-tertiary);
     margin-bottom: var(--space-lg);
 }
 
-/* Figma: Component/Profile/Header/Tagline */
+/* : Component/Profile/Header/Tagline */
 .profile-tagline {
     font-size: var(--font-size-base);
     color: var(--color-text-secondary);
@@ -76,7 +76,7 @@
 }
 
 /* ===== CONTACT SECTION ===== */
-/* Figma: Component/Profile/ContactCard */
+/* : Component/Profile/ContactCard */
 .contact-section {
     background-color: var(--color-bg-secondary);
     padding: var(--card-padding-xl);
@@ -90,7 +90,7 @@
     margin-bottom: var(--space-xl);
 }
 
-/* Figma: Component/Profile/ContactCard/ContactItem */
+/* : Component/Profile/ContactCard/ContactItem */
 .contact-item {
     display: flex;
     align-items: center;
@@ -112,7 +112,7 @@
     text-decoration: underline;
 }
 
-/* Figma: Component/Profile/ContactCard/SocialLinks */
+/* : Component/Profile/ContactCard/SocialLinks */
 .social-links {
     display: flex;
     gap: var(--space-xl);
@@ -141,7 +141,7 @@
 }
 
 /* ===== ABOUT SECTION ===== */
-/* Figma: Component/Profile/AboutSection */
+/* : Component/Profile/AboutSection */
 .about-content p {
     text-align: justify;
     color: var(--color-text-secondary);
@@ -150,7 +150,7 @@
 }
 
 /* ===== TEACHING TABLE ===== */
-/* Figma: Component/Profile/TeachingTable */
+/* : Component/Profile/TeachingTable */
 .table-container {
     overflow-x: auto;
 }
@@ -183,7 +183,7 @@
 }
 
 /* ===== PUBLICATIONS LIST ===== */
-/* Figma: Component/Profile/PublicationItem */
+/* : Component/Profile/PublicationItem */
 .publications-list {
     margin-top: var(--space-xl);
 }
@@ -222,7 +222,7 @@
 }
 
 /* ===== STUDENTS LIST ===== */
-/* Figma: Component/Profile/StudentItem */
+/* : Component/Profile/StudentItem */
 .students-list {
     margin-top: var(--space-xl);
 }
@@ -253,7 +253,7 @@
 }
 
 /* ===== PROJECTS LIST ===== */
-/* Figma: Component/Profile/ProjectItem */
+/* : Component/Profile/ProjectItem */
 .projects-list {
     margin-top: var(--space-xl);
 }
@@ -310,7 +310,7 @@
 }
 
 /* ===== SERVICE & AWARDS ===== */
-/* Figma: Component/Profile/ServiceList */
+/* : Component/Profile/ServiceList */
 .service-list,
 .awards-list {
     list-style-position: inside;
@@ -325,7 +325,7 @@
 }
 
 /* ===== FOOTER ===== */
-/* Figma: Component/Profile/Footer */
+/* : Component/Profile/Footer */
 .profile-footer {
     background-color: var(--color-bg-dark);
     color: var(--color-border-light);
