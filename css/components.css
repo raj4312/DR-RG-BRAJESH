@@ -1,0 +1,384 @@
+/**
+ * Component Styles
+ * 
+ * Individual component styles that map to Figma components.
+ * Figma Location: Design/Components & Tokens
+ */
+
+/* ===== PROFILE HEADER ===== */
+/* Figma: Component/Profile/Header */
+.profile-header {
+    text-align: center;
+    padding: var(--space-4xl) 0;
+    border-bottom: 3px solid var(--color-primary);
+    margin-bottom: var(--section-spacing);
+}
+
+/* Figma: Component/Profile/Header/Photo */
+.profile-photo {
+    width: var(--profile-photo-size);
+    height: var(--profile-photo-size);
+    border-radius: var(--radius-full);
+    background-color: var(--color-bg-tertiary);
+    margin: 0 auto var(--space-xl);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border: var(--profile-photo-border-width) solid var(--color-primary);
+}
+
+.profile-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-photo .default-avatar {
+    width: 100px;
+    height: 100px;
+    fill: var(--color-text-muted);
+}
+
+/* Figma: Component/Profile/Header/Name */
+.profile-name {
+    font-size: var(--font-size-3xl);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-primary);
+    margin-bottom: var(--space-md);
+}
+
+/* Figma: Component/Profile/Header/Title */
+.profile-title {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-regular);
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-sm);
+}
+
+/* Figma: Component/Profile/Header/Affiliation */
+.profile-affiliation {
+    font-size: var(--font-size-md);
+    color: var(--color-text-tertiary);
+    margin-bottom: var(--space-lg);
+}
+
+/* Figma: Component/Profile/Header/Tagline */
+.profile-tagline {
+    font-size: var(--font-size-base);
+    color: var(--color-text-secondary);
+    font-style: italic;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: var(--space-lg) var(--space-xl);
+    background-color: var(--color-bg-secondary);
+    border-left: var(--card-border-width) solid var(--color-primary);
+}
+
+/* ===== CONTACT SECTION ===== */
+/* Figma: Component/Profile/ContactCard */
+.contact-section {
+    background-color: var(--color-bg-secondary);
+    padding: var(--card-padding-xl);
+    border-radius: var(--radius-md);
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--space-xl);
+    margin-bottom: var(--space-xl);
+}
+
+/* Figma: Component/Profile/ContactCard/ContactItem */
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+}
+
+.contact-item strong {
+    color: var(--color-text-secondary);
+    min-width: 80px;
+    font-weight: var(--font-weight-medium);
+}
+
+.contact-item a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}
+
+/* Figma: Component/Profile/ContactCard/SocialLinks */
+.social-links {
+    display: flex;
+    gap: var(--space-xl);
+    flex-wrap: wrap;
+    margin-top: var(--space-lg);
+    padding-top: var(--space-lg);
+    border-top: 1px solid var(--color-border-light);
+}
+
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-sm);
+    padding: var(--space-sm) var(--space-lg);
+    background-color: var(--color-primary);
+    color: var(--color-bg-primary);
+    text-decoration: none;
+    border-radius: var(--radius-sm);
+    font-size: var(--font-size-sm);
+    transition: background-color var(--transition-base);
+    font-weight: var(--font-weight-medium);
+}
+
+.social-link:hover {
+    background-color: var(--color-primary-light);
+}
+
+/* ===== ABOUT SECTION ===== */
+/* Figma: Component/Profile/AboutSection */
+.about-content p {
+    text-align: justify;
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-lg);
+    line-height: var(--line-height-loose);
+}
+
+/* ===== TEACHING TABLE ===== */
+/* Figma: Component/Profile/TeachingTable */
+.table-container {
+    overflow-x: auto;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: var(--space-xl);
+}
+
+.data-table th,
+.data-table td {
+    padding: var(--table-cell-padding-y) var(--table-cell-padding-x);
+    text-align: left;
+    border-bottom: 1px solid var(--color-bg-tertiary);
+}
+
+.data-table th {
+    background-color: var(--color-primary);
+    color: var(--color-bg-primary);
+    font-weight: var(--font-weight-medium);
+}
+
+.data-table tbody tr:hover {
+    background-color: var(--color-bg-secondary);
+}
+
+.data-table td {
+    color: var(--color-text-secondary);
+}
+
+/* ===== PUBLICATIONS LIST ===== */
+/* Figma: Component/Profile/PublicationItem */
+.publications-list {
+    margin-top: var(--space-xl);
+}
+
+.publication-item {
+    margin-bottom: var(--space-xl);
+    padding: var(--card-padding);
+    background-color: var(--color-bg-secondary);
+    border-left: var(--card-border-width) solid var(--color-primary);
+    line-height: var(--line-height-relaxed);
+}
+
+.publication-item .pub-authors {
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-xs);
+}
+
+.publication-item .pub-title {
+    font-weight: var(--font-weight-medium);
+    color: var(--color-primary);
+    margin-bottom: var(--space-xs);
+}
+
+.publication-item .pub-title a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.publication-item .pub-title a:hover {
+    text-decoration: underline;
+}
+
+.publication-item .pub-venue {
+    font-style: italic;
+    color: var(--color-text-tertiary);
+}
+
+/* ===== STUDENTS LIST ===== */
+/* Figma: Component/Profile/StudentItem */
+.students-list {
+    margin-top: var(--space-xl);
+}
+
+.student-item {
+    margin-bottom: var(--space-xl);
+    padding: var(--card-padding);
+    background-color: var(--color-bg-secondary);
+    border-left: var(--card-border-width) solid var(--color-primary);
+}
+
+.student-item .student-name {
+    font-weight: var(--font-weight-medium);
+    color: var(--color-primary);
+    font-size: var(--font-size-md);
+    margin-bottom: var(--space-xs);
+}
+
+.student-item .student-program {
+    color: var(--color-text-tertiary);
+    font-size: var(--font-size-sm);
+    margin-bottom: var(--space-xs);
+}
+
+.student-item .student-thesis {
+    color: var(--color-text-secondary);
+    font-style: italic;
+}
+
+/* ===== PROJECTS LIST ===== */
+/* Figma: Component/Profile/ProjectItem */
+.projects-list {
+    margin-top: var(--space-xl);
+}
+
+.project-item {
+    margin-bottom: var(--space-2xl);
+    padding: var(--card-padding-lg);
+    background-color: var(--color-bg-secondary);
+    border-left: var(--card-border-width) solid var(--color-primary);
+    border-radius: var(--radius-sm);
+}
+
+.project-item .project-title {
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-primary);
+    font-size: var(--font-size-lg);
+    margin-bottom: var(--space-md);
+}
+
+.project-item .project-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-xl);
+    margin-bottom: var(--space-md);
+    padding-bottom: var(--space-md);
+    border-bottom: 1px solid var(--color-border-light);
+}
+
+.project-item .project-meta-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+    font-size: var(--font-size-sm);
+}
+
+.project-item .project-meta-item strong {
+    color: var(--color-text-secondary);
+    font-weight: var(--font-weight-medium);
+}
+
+.project-item .project-meta-item span {
+    color: var(--color-text-tertiary);
+}
+
+.project-item .project-amount {
+    color: var(--color-accent-green);
+    font-weight: var(--font-weight-semibold);
+}
+
+.project-item .project-description {
+    color: var(--color-text-secondary);
+    line-height: var(--line-height-relaxed);
+    text-align: justify;
+}
+
+/* ===== SERVICE & AWARDS ===== */
+/* Figma: Component/Profile/ServiceList */
+.service-list,
+.awards-list {
+    list-style-position: inside;
+    color: var(--color-text-secondary);
+    margin-top: var(--space-lg);
+}
+
+.service-list li,
+.awards-list li {
+    margin-bottom: var(--space-md);
+    line-height: var(--line-height-relaxed);
+}
+
+/* ===== FOOTER ===== */
+/* Figma: Component/Profile/Footer */
+.profile-footer {
+    background-color: var(--color-bg-dark);
+    color: var(--color-border-light);
+    text-align: center;
+    padding: var(--space-3xl) var(--space-xl);
+    margin-top: var(--space-6xl);
+    font-size: var(--font-size-sm);
+}
+
+.profile-footer p {
+    margin-bottom: var(--space-sm);
+}
+
+/* ===== RESPONSIVE COMPONENTS ===== */
+@media (max-width: 768px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .social-links {
+        flex-direction: column;
+    }
+    
+    .data-table {
+        font-size: var(--font-size-sm);
+    }
+    
+    .data-table th,
+    .data-table td {
+        padding: var(--space-sm);
+    }
+    
+    .project-item .project-meta {
+        flex-direction: column;
+        gap: var(--space-sm);
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-name {
+        font-size: var(--font-size-2xl);
+    }
+    
+    .profile-title {
+        font-size: var(--font-size-md);
+    }
+    
+    .data-table {
+        font-size: var(--font-size-xs);
+    }
+    
+    .data-table th,
+    .data-table td {
+        padding: var(--space-xs);
+    }
+}

@@ -1,0 +1,123 @@
+/**
+ * Layout Styles
+ * 
+ * Global layout rules and page structure.
+ * Figma Location: Design/Layout Templates
+ */
+
+/* ===== RESET & BASE ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-family-primary);
+    line-height: var(--line-height-normal);
+    color: var(--color-text-primary);
+    background-color: var(--color-bg-primary);
+    min-height: 100vh;
+}
+
+/* ===== UTILITY CLASSES ===== */
+.hidden {
+    display: none !important;
+}
+
+/* ===== LOADING STATE ===== */
+/* Figma: Component/Loading */
+.loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: var(--space-5xl);
+    color: var(--color-primary);
+}
+
+.loading-spinner {
+    width: 48px;
+    height: 48px;
+    border: 4px solid var(--color-bg-tertiary);
+    border-top-color: var(--color-primary);
+    border-radius: var(--radius-full);
+    animation: spin 1s linear infinite;
+    margin-bottom: var(--space-lg);
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.loading p {
+    font-size: var(--font-size-lg);
+}
+
+/* ===== ERROR STATE ===== */
+/* Figma: Component/Error */
+.error {
+    background-color: var(--color-error-bg);
+    color: var(--color-error-text);
+    padding: var(--space-xl);
+    margin: var(--space-xl);
+    border-left: var(--card-border-width) solid var(--color-error-border);
+    border-radius: var(--radius-sm);
+}
+
+/* ===== MAIN CONTAINER ===== */
+/* Figma: Layout/Container */
+.container {
+    max-width: var(--container-max-width);
+    margin: 0 auto;
+    padding: var(--container-padding);
+}
+
+/* ===== SECTIONS ===== */
+/* Figma: Layout/Section */
+.section {
+    margin-bottom: var(--section-spacing);
+}
+
+.section-heading {
+    font-size: var(--font-size-2xl);
+    color: var(--color-primary);
+    margin-bottom: var(--space-xl);
+    border-bottom: 2px solid var(--color-primary);
+    padding-bottom: var(--space-md);
+    font-weight: var(--font-weight-bold);
+}
+
+.subsection-heading {
+    font-size: var(--font-size-xl);
+    color: var(--color-text-secondary);
+    margin-top: var(--space-xl);
+    margin-bottom: var(--space-md);
+    font-weight: var(--font-weight-semibold);
+}
+
+/* ===== RESPONSIVE LAYOUT ===== */
+@media (max-width: 768px) {
+    .container {
+        padding: var(--container-padding);
+    }
+    
+    .section {
+        margin-bottom: var(--section-spacing);
+    }
+}
+
+@media (max-width: 480px) {
+    .section-heading {
+        font-size: var(--font-size-xl);
+    }
+    
+    .subsection-heading {
+        font-size: var(--font-size-lg);
+    }
+}

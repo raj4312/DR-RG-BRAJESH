@@ -1,0 +1,147 @@
+{
+  "name": "Dr. R G Brajesh",
+  "degree": "PhD",
+  "title": "Assistant Professor",
+  "department": "Department of Biomedical Engineering & Bioinformatics",
+  "university": "Chhattisgarh Swami Vivekanand Technical University, Bhilai (C.G.)",
+  "location": "Bhilai, Chhattisgarh",
+  "tagline": "Specializing in Systems Biology, Evolutionary Biology, Machine Learning in Healthcare, and Machine Learning in Agricultural Science.",
+  "image": "../assets/img/dr-rg-brajesh.jpg",
+  "contact": {
+    "email": "brajeshrg@csvtu.ac.in",
+    "emailSecondary": "faculty3_bmeb@csvtu.ac.in",
+    "office": "F 18, UTD 1",
+    "phone": "+91-7880273521"
+  },
+  "links": {
+    "scholar": "https://scholar.google.com/citations?user=rkIRO5IAAAAJ",
+    "orcid": "https://orcid.org/0000-0000-0000-0000",
+    "linkedin": "https://linkedin.com/in/placeholder",
+    "website": "https://personal-website.com"
+  },
+  "about": [
+    "Dr. R G Brajesh is an Assistant Professor in the Department of Biomedical Engineering and Bioinformatics at Chhattisgarh Swami Vivekanand Technical University, Bhilai (C.G.), India.",
+    "His areas of interest include systems biology, evolutionary biology, machine learning in healthcare, and machine learning in agricultural science. His research focuses on understanding complex biological systems through computational modeling and machine learning approaches, with applications in both healthcare and agricultural domains."
+  ],
+  "teaching": [
+    {
+      "code": "BMEB 201",
+      "title": "Drug Delivery and Drug Design",
+      "level": "UG",
+      "semester": "2nd Semester 2024"
+    },
+    {
+      "code": "BMEB 301",
+      "title": "Experimental and Quantitative Physiology",
+      "level": "UG",
+      "semester": "3rd Semester 2025"
+    },
+    {
+      "code": "BMEB 701",
+      "title": "Machine Learning for Bioinformatics",
+      "level": "PG",
+      "semester": "2nd Semester 2024"
+    }
+  ],
+  "research": {
+    "summary": "My research focuses on systems biology, evolutionary biology, and the application of machine learning techniques to biological and agricultural problems. Current projects include AI-based crop health monitoring using drone imagery, computational modeling of genetic regulatory networks, and understanding evolutionary adaptation in microbial systems. I am particularly interested in developing interpretable machine learning models that can provide biological insights and practical solutions for healthcare and agricultural challenges.",
+    "publications": [
+      {
+        "authors": "Venkataraman, P., Nagendra, P., Ahlawat, N., Saini, S., & Brajesh, R. G.",
+        "title": "Convergent genetic adaptation of Escherichia coli in minimal media leads to pleiotropic divergence",
+        "venue": "Frontiers in Molecular Biosciences, 11, 1286824",
+        "year": 2024,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38660375/"
+      },
+      {
+        "authors": "Gerald, N., Dutta, D., Brajesh, R. G., & Saini, S.",
+        "title": "Mathematical modeling of movement on fitness landscapes",
+        "venue": "BMC Systems Biology, 13, 1-10",
+        "year": 2019,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rkIRO5IAAAAJ&citation_for_view=rkIRO5IAAAAJ:4DMP91E08xMC"
+      },
+      {
+        "authors": "Brajesh, R. G., Dutta, D., & Saini, S.",
+        "title": "Distribution of fitness effects of mutations obtained from a simple genetic regulatory network model",
+        "venue": "Scientific Reports, 9(1), 9842",
+        "year": 2019,
+        "url": "https://www.nature.com/articles/s41598-019-46401-7"
+      },
+      {
+        "authors": "Brajesh, R. G., Raj, N., & Saini, S.",
+        "title": "Optimal parameter values for the control of gene regulation",
+        "venue": "Molecular BioSystems, 13(4), 796-803",
+        "year": 2017,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rkIRO5IAAAAJ&citation_for_view=rkIRO5IAAAAJ:9yKSN-GCB0IC"
+      },
+      {
+        "authors": "Prajapat, M. K., Shroff, I., Brajesh, R. G., & Saini, S.",
+        "title": "Analysis of a strategy for cooperating cells to survive the presence of cheaters",
+        "venue": "Molecular BioSystems, 12(11), 3338-3346",
+        "year": 2016,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rkIRO5IAAAAJ&citation_for_view=rkIRO5IAAAAJ:Wp0gIr-vW9MC"
+      },
+      {
+        "authors": "Gopal Ramakrishnan, G., Nehru, G., Suppuram, P., Balasubramaniyam, S., Raman Gulab, B., & Subramanian, R.",
+        "title": "Bio-transformation of glycerol to 3-hydroxypropionic acid using resting cells of Lactobacillus reuteri",
+        "venue": "Current Microbiology, 71, 517-523",
+        "year": 2015,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rkIRO5IAAAAJ&citation_for_view=rkIRO5IAAAAJ:roLk4NBRz8UC"
+      },
+      {
+        "authors": "Gopi, G. R., Ganesh, N., Pandiaraj, S., Sowmiya, B., Brajesh, R. G., & Ramalingam, S.",
+        "title": "A study on enhanced expression of 3-hydroxypropionic acid pathway genes and impact on its production in Lactobacillus reuteri",
+        "venue": "Food Technology and Biotechnology, 53(3), 331-336",
+        "year": 2015,
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rkIRO5IAAAAJ&citation_for_view=rkIRO5IAAAAJ:KlAtU1dfN6UC"
+      }
+    ]
+  },
+  "students": [
+    {
+      "name": "Priya Sharma",
+      "program": "PhD in Biomedical Engineering",
+      "year": "2021 - Present",
+      "topic": "Interpretable Deep Learning Models for Medical Diagnostics"
+    }
+  ],
+  "ongoingProjects": [
+    {
+      "title": "AI-Based Crop Health Monitoring with High-Resolution Drone Images",
+      "fundingAgency": "Internal Research Grant, CSVTU",
+      "amount": "₹2,00,000",
+      "duration": "2024 - 2025",
+      "description": "Developing an AI-powered system for monitoring crop health using high-resolution drone imagery. The project focuses on early detection of plant diseases and nutrient deficiencies through computer vision and machine learning techniques, enabling precision agriculture practices for improved crop yields."
+    },
+    {
+      "title": "Computational Modeling of Genetic Regulatory Networks",
+      "fundingAgency": "Science and Engineering Research Board (SERB)",
+      "amount": "₹12,00,000",
+      "duration": "2023 - 2026",
+      "description": "Investigating the dynamics of genetic regulatory networks using mathematical and computational modeling approaches. This research aims to understand how gene expression is controlled and how mutations affect cellular phenotypes, with implications for evolutionary biology and synthetic biology applications."
+    },
+    {
+      "title": "Machine Learning for Disease Diagnosis in Resource-Limited Settings",
+      "fundingAgency": "Department of Biotechnology (DBT)",
+      "amount": "₹8,50,000",
+      "duration": "2024 - 2026",
+      "description": "Developing lightweight machine learning models for automated disease diagnosis that can operate effectively in resource-constrained clinical settings. The project focuses on creating interpretable AI tools that assist healthcare workers in rural areas with limited access to specialized medical expertise."
+    }
+  ],
+  "service": {
+    "academic": [
+      "Member, Board of Studies, Department of Biomedical Engineering & Bioinformatics, CSVTU (2023-Present)",
+      "Coordinator, Research & Development Cell, CSVTU (2024-Present)",
+      "Member, Academic Council, CSVTU (2023-2024)",
+      "Reviewer, Frontiers in Molecular Biosciences",
+      "Reviewer, BMC Bioinformatics",
+      "Reviewer, Scientific Reports"
+    ],
+    "awards": [
+      "Young Scientist Award, Chhattisgarh Council of Science and Technology (2023)",
+      "Best Research Paper Award, National Conference on Systems Biology (2019)",
+      "INSPIRE Fellowship, Department of Science and Technology (2012-2017)"
+    ]
+  },
+  "lastUpdated": "December 2024"
+}
