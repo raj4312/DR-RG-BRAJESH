@@ -42,7 +42,7 @@ const Renderers = (function() {
     
     /**
      * Render: Profile Header
-     * Figma: Component/Profile/Header
+     * : Component/Profile/Header
      */
     function renderHeader(data) {
         // Profile photo
@@ -68,7 +68,7 @@ const Renderers = (function() {
     
     /**
      * Render: Contact Section
-     * Figma: Component/Profile/ContactCard
+     * : Component/Profile/ContactCard
      */
     function renderContact(data) {
         // Contact information
@@ -104,7 +104,7 @@ const Renderers = (function() {
     
     /**
      * Render: About Section
-     * Figma: Component/Profile/AboutSection
+     * : Component/Profile/AboutSection
      */
     function renderAbout(data) {
         data.about.forEach(paragraph => {
@@ -115,7 +115,7 @@ const Renderers = (function() {
     
     /**
      * Render: Teaching Section
-     * Figma: Component/Profile/TeachingTable
+     * : Component/Profile/TeachingTable
      */
     function renderTeaching(data) {
         data.teaching.forEach(course => {
@@ -132,7 +132,7 @@ const Renderers = (function() {
     
     /**
      * Render: Research & Publications Section
-     * Figma: Component/Profile/ResearchSection
+     * : Component/Profile/ResearchSection
      */
     function renderResearch(data) {
         elements.researchSummary.textContent = data.research.summary;
@@ -155,7 +155,7 @@ const Renderers = (function() {
     
     /**
      * Render: Students Section
-     * Figma: Component/Profile/StudentsSection
+     * : Component/Profile/StudentsSection
      */
     function renderStudents(data) {
         data.students.forEach(student => {
@@ -171,7 +171,7 @@ const Renderers = (function() {
     
     /**
      * Render: Projects Section
-     * Figma: Component/Profile/ProjectsSection
+     * : Component/Profile/ProjectsSection
      */
     function renderProjects(data) {
         data.ongoingProjects.forEach(project => {
@@ -219,7 +219,7 @@ const Renderers = (function() {
     
     /**
      * Render: Service & Awards Section
-     * Figma: Component/Profile/ServiceSection
+     * : Component/Profile/ServiceSection
      */
     function renderService(data) {
         data.service.academic.forEach(service => {
@@ -235,7 +235,7 @@ const Renderers = (function() {
     
     /**
      * Render: Footer
-     * Figma: Component/Profile/Footer
+     * : Component/Profile/Footer
      */
     function renderFooter(data) {
         elements.footerDepartment.textContent = data.department;
